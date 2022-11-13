@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% block tittle %} VK | ABOUT {% endblock %}
+{% block body %}
+
+<!---------OUR SERVICES------->
+
+<div class="container"  style="margin-top:80px ;">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-danger my-5 text-center">OUR SERVICES</h2>
+        </div>
+    </div>
+    <div class="row d-flex">
+        <div class="col-12 col-lg-3 col-md-3 service_image" >
+            <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/service1.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 col-md-3  mt-5 text-center" style="height: 300px;width:25%;">
+            <h5>Obstetrics & <br> Antenatal Care</h5><br>
+            <span>Comprehensive personalized health care for women.</span><br><br>
+            <a href="{{ url_for('Appointment') }}"  style="text-decoration: none;"><span class="text-danger"> Book An Appointment </span></a>
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 service_image" >
+            <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/service2.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 col-md-3  mt-5 text-center" style="height: 300px;width:25% ;">
+            <h5>Gynaecology <br> Clinic</h5><br>
+            <span>The best reproductive health care services.</span><br><br>
+            <a href="{{ url_for('Appointment') }}"  style="text-decoration: none;"><span class="text-danger"> Book An Appointment </span></a>
+        </div>
+    </div>
+    <div class="row d-flex">
+        <div class="col-12 col-lg-3 col-md-3  mt-5 text-center"style="height: 300px;width:25% ;">
+            <h5>Infertility & <br> IVF Treatment</h5><br>
+            <span>Best fertility solution depending on the medical issue.</span><br><br>
+            <a href="{{ url_for('Appointment') }}"  style="text-decoration: none;"><span class="text-danger"> Book An Appointment </span></a>
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 service_image">
+            <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/service3.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 mt-5 text-center"style="height: 300px;width:25% ;">
+            <h5>Laparoscopic <br> Surgery</h5><br>
+            <span>Equipped with the latest technologies & expertise.</span><br><br>
+            <a href="{{ url_for('Appointment') }}"  style="text-decoration: none;"><span class="text-danger"> Book An Appointment </span></a>
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 service_image">
+            <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/service4.jpg" alt="">
+        </div>
+        
+    </div>
+</div>
+
+<!--------Doctors------->
+<div class="container" style="margin-top:80px ;">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-danger my-5">Our Best Hands</h2>
+        </div>
+        <div class="col-12 col-lg-4 c0l-md-4">
+            <div class="card text-bg-danger" style="width: 18rem;">
+                <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/d1.jpg" class="card-img-top" alt="Doctor">
+                <div class="card-body">
+                    <h4 class="card-tittle">Dr.Emma</h4>
+                  <p class="card-text">Dr.Emma specialist in Radiologist. </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-4 c0l-md-4">
+            <div class="card text-bg-danger" style="width: 18rem;">
+                <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/d3.jpg" class="card-img-top" alt="Doctor">
+                <div class="card-body">
+                    <h4 class="card-tittle">Dr.John</h4>
+                  <p class="card-text">Dr.John is a family medicine doctor.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-4 c0l-md-4">
+            <div class="card text-bg-danger" style="width: 18rem;">
+                <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/d5.jpg" class="card-img-top" alt="Doctor">
+                <div class="card-body">
+                    <h4 class="card-tittle">Dr.Ruby</h4>
+                  <p class="card-text">Dr.Ruby is a Dentist.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-12 col-lg-4 c0l-md-4">
+            <div class="card text-bg-danger" style="width: 18rem;">
+                <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/d2.jpg" class="card-img-top" alt="Doctor">
+                <div class="card-body">
+                    <h4 class="card-tittle">Dr.Otis</h4>
+                  <p class="card-text">Dr.Otis is specialist in Orthopedics.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-4 c0l-md-4">
+            <div class="card text-bg-danger" style="width: 18rem;">
+                <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/d4.jpg" class="card-img-top" alt="Doctor">
+                <div class="card-body">
+                    <h4 class="card-tittle">Dr.Ria</h4>
+                  <p class="card-text">Dr.Ria is a cardiologist doctor.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-4 c0l-md-4">
+            <div class="card text-bg-danger" style="width: 18rem;">
+                <img src="https://hospitalcustomercareregistry.s3.au-syd.cloud-object-storage.appdomain.cloud/d6.jpg" class="card-img-top" alt="Doctor">
+                <div class="card-body">
+                    <h4 class="card-tittle">Dr.Maya</h4>
+                  <p class="card-text">Dr.Maya is a general ward doctor.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
